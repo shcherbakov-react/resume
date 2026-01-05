@@ -1,0 +1,12 @@
+.header {
+  max-height: var(--header-height);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 80px);
+  background: var(--bg)
+}
