@@ -3,6 +3,7 @@
   color: var(--black30);
   margin: 0 auto 20px;
   text-transform: lowercase;
+  align-self: end;
 }
 
 .title {
@@ -12,6 +13,11 @@
   letter-spacing: -1%;
   text-align: center;
   text-transform: lowercase;
+  align-self: start;
+}
+
+.screen {
+  height: calc(100vh - 220px);
 }
 
 .accent {

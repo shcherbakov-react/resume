@@ -1,4 +1,4 @@
-import {NAVIGATION} from "../../../utils/const";
+import {NAVIGATION} from "../../../utils/const/navigation.ts";
 import {useTranslation} from "react-i18next";
 import cls from './Navigator.module.scss'
 
