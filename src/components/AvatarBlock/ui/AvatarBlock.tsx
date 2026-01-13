@@ -1,5 +1,5 @@
 import cls from './AvatarBlock.module.scss'
-import Image from '../../../assets/images/avatar.jpg'
+import Image from '../../../assets/images/avatar.png'
 import { useTranslation } from "react-i18next";
 
 export const AvatarBlock = () => {

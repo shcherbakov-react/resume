@@ -5,8 +5,20 @@ import {LanguageSwitcher} from "../../LanguageSwitcher";
 export const Header = () => {
     return (
         <header className={cls.header}>
-            <AvatarBlock />
-            <LanguageSwitcher />
+            <div className={cls.wrap}>
+                <div className="progressive-blur-container">
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="blur-filter"></div>
+                    <div className="gradient"></div>
+                </div>
+                <AvatarBlock/>
+                <LanguageSwitcher/>
+            </div>
         </header>
     )
 }
